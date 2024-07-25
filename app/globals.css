@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: "Revans";
+  src: url("34dd27c20420ff2f3eee92ad5a1138b3.eot");
+  src: url("34dd27c20420ff2f3eee92ad5a1138b3.eot?#iefix")format("embedded-opentype"),
+      url("34dd27c20420ff2f3eee92ad5a1138b3.woff")format("woff"),
+      url("34dd27c20420ff2f3eee92ad5a1138b3.woff2")format("woff2"),
+      url("34dd27c20420ff2f3eee92ad5a1138b3.ttf")format("truetype"),
+      url("34dd27c20420ff2f3eee92ad5a1138b3.svg#Revans")format("svg");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
