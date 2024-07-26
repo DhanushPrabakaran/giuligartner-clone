@@ -15,7 +15,7 @@ const About = () => {
           <div className="relative">
             <span className="block w-[8vw] h-[8vw]">
               <Image
-                className="absolute top-0 left-0 z-50 hover:scale-150 hover:rotate-2 duration-150 rounded-2xl hover:w-24"
+                className="absolute top-0 left-0  hover:scale-150 hover:rotate-2 duration-150 rounded-2xl hover:w-24"
                 src={about1}
                 width={80}
                 height={80}
