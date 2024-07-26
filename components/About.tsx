@@ -7,10 +7,9 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full h-screen bg-primary-black text-primary-white font-MintGrotesk justify-center items-center flex flex-col "
+      className="w-full min-h-screen h-full bg-primary-black text-primary-white font-MintGrotesk justify-center items-center flex flex-col "
     >
-      <div className="max-w-[80vw] flex flex-col items-center h-[80vh] justify-center gap-14">
-
+      <div className="max-w-[66vw] flex flex-col items-center  justify-center gap-14">
         <div className="font-roslindale max-md:text-[5vw] text-[4vw] w-full text-center flex flex-wrap justify-center items-center space-x-2">
           <div className="text-5xl md:text-6xl lg:text-7xl">A</div>
           <div className="relative">
@@ -54,6 +53,19 @@ const About = () => {
             </span>
           </div>
         </div>
+        <p
+        className=" text-center text-base ">
+          Giulia Gartner () is an outdoor, travel, and commercial photographer,
+          filmmaker, and storyteller from the Dolomites in northern Italy. Her
+          work focuses on capturing wild and rugged landscapes with a vivid
+          color palette and dreamy elements. Her love for photography has
+          spilled over into filmmaking which is one of the main creative outlets
+          she pursues today.
+        </p>
+        <button
+        className=" border text-sm rounded-full px-3 py-2">
+          READ MY STORY
+        </button>
       </div>
     </section>
   );
