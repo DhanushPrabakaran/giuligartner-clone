@@ -64,7 +64,7 @@ const NavBar = () => {
       {/* Sliding Menu */}
       <div
         className={`fixed top-0 z-50 right-[35%] w-64 h-full bg-transparent  transform ${
-          isMenuOpen ? "-translate-y-96" : "translate-y-full"
+          isMenuOpen ?   "translate-y-full":"-translate-y-96"
         } transition-transform duration-300 ease-in-out lg:hidden`}
       >
         
