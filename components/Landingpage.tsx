@@ -10,7 +10,7 @@ const Landingpage = () => {
         className="relative flex items-center  
         justify-center w-[90vw] h-[80vh] overflow-hidden rounded-3xl py-10 px-3 mt-16"
       >
-        <div className=" text-primary-white text-[7vw] z-10 text-center font-roslindale">
+        <div className=" text-primary-white text-5xl md:text-6xl lg:text-7xl z-10 text-center font-roslindale">
           GIULIA GARTNER PHOTOGRAPHER & FILMMAKER
         </div>
         <video
