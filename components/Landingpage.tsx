@@ -19,35 +19,34 @@ const Landingpage = () => {
         ease: "power3.out",
       });
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   return (
     <section
       id="body"
       ref={containerRef}
-      className="w-full h-screen bg-primary-black text-primary-white font-MintGrotesk  flex flex-wrap justify-center items-center "
+      className="flex h-screen w-full flex-wrap items-center justify-center bg-primary-black font-MintGrotesk text-primary-white"
     >
-      <div className="relative flex items-center justify-center w-[90vw] h-[80vh] overflow-hidden rounded-3xl py-10 px-3 mt-16 flex-wrap ">
+      <div className="relative mt-16 flex h-[80vh] w-[90vw] flex-wrap items-center justify-center overflow-hidden rounded-3xl px-3 py-10">
         <div
           ref={textRef}
           id="text"
-          className="
-          res-heading-4xl text-primary-white  z-10 text-center font-roslindale flex flex-wrap flex-row justify-center mx-[8vw]"
-          // text-3xl max-md:text-5xl lg:text-7xl 
+          className="res-heading-4xl z-10 mx-[8vw] flex flex-row flex-wrap justify-center text-center font-roslindale text-primary-white"
+          // text-3xl max-md:text-5xl lg:text-7xl
         >
-          <div className="inline-block">GIULIA{" "}</div>
-          <div className="inline-block">GARTNER {" "}</div>
-          <div className="inline">PHOTOGRAPHER {" "}</div> 
-          <div>& {" "}</div>
-          <div>{" "}FILMMAKER</div>
+          <div className="inline-block">GIULIA </div>
+          <div className="inline-block">GARTNER </div>
+          <div className="inline">PHOTOGRAPHER </div>
+          <div>& </div>
+          <div> FILMMAKER</div>
         </div>
         <video
           src="https://assets-global.website-files.com/60db5e59f76ae577e9f50d42/63600c288b483e9c7398616b_reel-transcode.mp4"
           autoPlay
           muted
           loop
-          className="absolute w-auto min-w-full min-h-full max-w-none"
+          className="absolute min-h-full w-auto min-w-full max-w-none"
         />
       </div>
     </section>
