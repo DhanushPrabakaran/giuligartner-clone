@@ -32,7 +32,7 @@ const Landingpage = () => {
         <div
           ref={textRef}
           id="text"
-          className="res-heading-4xl z-10 mx-[8vw] flex flex-row flex-wrap justify-center text-center font-roslindale text-primary-white"
+          className="res-heading-3xl z-10 mx-[8vw] flex flex-row flex-wrap justify-center text-center font-roslindale text-primary-white"
           // text-3xl max-md:text-5xl lg:text-7xl
         >
           <div className="inline-block">GIULIA </div>

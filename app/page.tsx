@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import NavBar from "@/components/elements/NavBar";
 import Landingpage from "@/components/Landingpage";
+import Picture from "@/components/Picture";
 import Projects from "@/components/Projects";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Landingpage/>
       <About/>
       <Projects/>
+      <Picture/>
     </section>
   );
 }
